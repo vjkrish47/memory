@@ -33,13 +33,13 @@ Provides a structured approach for designing resource efficient monitoring syste
 
 **Experimental Results (Summary)**:
 
-  | Nodes | Conventional 2PC Protocol Lock Hold Time (ms) | Optimized Commit Transaction Protocol Lock Hold Time (ms) | Improvement (%) |
-  |-------|-----------------------------------------------| ----------------------------------------------------------| ----------------|
-  | 3     | 95                                            | 65                                                        | 31.58           |
-  | 5     | 120                                           | 85                                                        | 29.17           |
-  | 7     | 145                                           | 105                                                       | 27.59           |
-  | 9     | 170                                           | 125                                                       | 26.47           |
-  | 11    | 195                                           | 145                                                       | 25.64           |
+  | Nodes | local monitoring (MB) | Runtime Optimized (MB)| Improvement (%) |
+  |-------|-----------------------| ----------------------| ----------------|
+  | 3     | 920                   | 700                   | 23.91           |
+  | 5     | 1100                  | 820                   | 25.45           |
+  | 7     | 1280                  | 940                   | 26.56           |
+  | 9     | 1460                  | 1050                  | 28.08           |
+  | 11    | 1640                  | 1180                  | 28.05           |
 
 **Citation** \
 Reducing Runtime Overhead in Distributed Congestion Monitoring Systems. \
