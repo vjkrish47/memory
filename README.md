@@ -1,8 +1,5 @@
 # memory
-Reducing Runtime Overhead in Distributed Congestion Monitoring Systems
-
-# lock-hold
-**Enhanced Commit Protocols for Low Latency Distributed Transactions**
+**Reducing Runtime Overhead in Distributed Congestion Monitoring Systems**
 
 * Author: Vijaya Krishna Namala
 * Published In : International Journal of Innovative Research in Engineering & Multidisciplinary Physical Sciences (IJIRMPS)
@@ -14,26 +11,25 @@ Reducing Runtime Overhead in Distributed Congestion Monitoring Systems
 Distributed transaction systems rely on commit protocols, but conventional approaches introduce high latency due to coordination overhead and multiple communication rounds. As systems scale, these delays reduce concurrency and increase sensitivity to network conditions. This work explores protocol level optimizations to restructure coordination and improve decision propagation while maintaining correctness. Experimental evaluation across cluster sizes demonstrates that optimized commit design can significantly reduce latency and improve scalability in distributed environments.
 
 **Key Contributions**
-* **Optimized Commit Coordination Design:**\
-Developed an enhanced commit protocol that restructures coordination flow to reduce lock holding time and minimize blocking during distributed transaction execution.
-* **Reduced Lock Retention Mechanism:**\
-Introduced techniques for early lock release and parallel vote processing to limit resource holding duration and improve transaction concurrency.
-* **Efficient Communication and Synchronization Model:**\
-Designed a coordination approach that reduces unnecessary synchronization points and lowers communication overhead during commit decision propagation.
-* **Experimental Evaluation Across Cluster Sizes and Contention Levels:**\
-Conducted systematic analysis on clusters with 3, 5, 7, 9, and 11 nodes under varying contention conditions to evaluate lock hold time and scalability behavior.
-
+* **Memory Efficient Monitoring Framework Design:**\
+Developed a distributed monitoring architecture that minimizes memory overhead by eliminating redundant telemetry storage across nodes.
+* **Consolidated Telemetry Storage Mechanism:**\
+Introduced a shared aggregation approach where telemetry data is centrally maintained, avoiding duplication of buffers, logs, and intermediate data across machines.
+* **Reduced Runtime Memory Overhead Strategy:**\
+Designed lightweight data collection techniques that limit local buffering and reduce unnecessary memory allocation during monitoring operations.
+* **Scalability Evaluation Across Cluster Sizes:**\
+Conducted experiments on clusters with 3, 5, 7, 9, and 11 nodes to analyze memory consumption behavior and validate improved scalability.
 **Relevance & Real World Impact**
-* **Reduced Commit Latency :**\
-The optimized protocol significantly lowers commit delay by minimizing coordination overhead and shortening lock holding duration in distributed transactions.
-* **Improved Transaction Concurrency :**\
-Faster lock release enables higher parallel transaction execution, reducing contention and improving overall system throughput.
-* **Enhanced Scalability in Distributed Systems :**\
-The protocol demonstrates controlled growth in coordination cost as cluster size increases, supporting efficient scaling of transactional systems.
-* **Better Performance Under High Contention :**\
-The approach maintains lower lock hold time even under heavy workload conditions, ensuring stable and responsive transaction processing.
+* **Reduced Memory Consumption :**\
+The proposed approach significantly lowers memory usage by avoiding duplicated telemetry storage and optimizing buffer management in distributed monitoring systems.
+* **Improved Resource Utilization :**\
+Efficient memory handling ensures that more system resources remain available for application workloads, improving overall system performance.
+* **Enhanced Scalability in Distributed Environments :**\
+Controlled memory growth with increasing cluster size enables scalable monitoring without excessive resource overhead.
+* **Stable System Performance :**\
+Lower memory pressure reduces risks of garbage collection delays and paging, ensuring consistent and reliable monitoring behavior.
 * **Academic and Practical Contribution :**\
-Provides a structured framework for improving commit protocol design, supporting further research and real world implementation in distributed databases and transaction platforms.
+Provides a structured approach for designing resource efficient monitoring systems, supporting further research and real world implementation in cloud and distributed infrastructures.
 
 **Experimental Results (Summary)**:
 
