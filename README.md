@@ -2,13 +2,13 @@
 **Reducing Runtime Overhead in Distributed Congestion Monitoring Systems**
 
 * Author: Vijaya Krishna Namala
-* Published In : International Journal of Innovative Research in Engineering & Multidisciplinary Physical Sciences (IJIRMPS)
-* Publication Date: May 2022
-* E-ISSN: 2349-7300
-* Impact Factor : 9.907
+* Published In : International Journal of Technology and Applied Science (IJTAS)
+* Publication Date: Feb 2021
+* E-ISSN: 2230-9004
+* Impact Factor : 10.31
 
 **Abstract:**
-Distributed transaction systems rely on commit protocols, but conventional approaches introduce high latency due to coordination overhead and multiple communication rounds. As systems scale, these delays reduce concurrency and increase sensitivity to network conditions. This work explores protocol level optimizations to restructure coordination and improve decision propagation while maintaining correctness. Experimental evaluation across cluster sizes demonstrates that optimized commit design can significantly reduce latency and improve scalability in distributed environments.
+Distributed congestion monitoring systems often consume excessive memory due to independent telemetry storage and duplication across nodes. This work proposes a memory efficient framework that consolidates telemetry handling and minimizes redundant buffering. By introducing shared aggregation and lightweight data collection, the approach significantly reduces runtime memory overhead. Experimental results across multiple cluster sizes demonstrate improved scalability and efficient resource utilization in distributed environments.
 
 **Key Contributions**
 * **Memory Efficient Monitoring Framework Design:**\
@@ -42,14 +42,14 @@ Provides a structured approach for designing resource efficient monitoring syste
   | 11    | 195                                           | 145                                                       | 25.64           |
 
 **Citation** \
-Enhanced Commit Protocols for Low Latency Distributed Transactions. \
+Reducing Runtime Overhead in Distributed Congestion Monitoring Systems. \
 Vijaya Krishna Namala \
-International Journal of Innovative Research in Engineering & Multidisciplinary Physical Sciences \
-E-ISSN- 2349-7300  \
+International Journal of Technology and Applied Science \
+E-ISSN- 2230-9004  \
 **License** \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijirmps.org/ \
+https://www.ijsat.org/ \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/vijaya-krishna-namala-a42b2958 | **Email**: vijaya.namala@gmail.com
 
